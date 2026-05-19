@@ -1,3 +1,10 @@
+#=====================================================================#
+#  Curso: Fundamentos de Programación (Código: 213022)
+#  Fase 5 - Evaluación Final POA
+#  Estudiante: Juan David Calle Ceballos
+#  Problema Elegido: Problema 3 - Auditoría de Inventario
+#=====================================================================#
+
 def calcular_cantidad_a_pedir(stock_actual, stock_minimo):
     if stock_actual < stock_minimo:
         cantidad_pedir = stock_minimo - stock_actual
